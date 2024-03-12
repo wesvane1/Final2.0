@@ -31,7 +31,7 @@
         }
       }
     },
-    "/recipes/getAll/": {
+    "/journal/getAll/": {
       "get": {
         "description": "",
         "produces": [
@@ -47,7 +47,7 @@
         }
       }
     },
-    "/recipes/getSingle/{id}": {
+    "/journal/getSingle/{id}": {
       "get": {
         "description": "",
         "produces": [
@@ -71,7 +71,7 @@
         }
       }
     },
-    "/recipes/createRecipe/": {
+    "/journal/createRecipe/": {
       "post": {
         "description": "",
         "parameters": [
@@ -119,7 +119,7 @@
         }
       }
     },
-    "/recipes/updateRecipe/{id}": {
+    "/journal/updateRecipe/{id}": {
       "put": {
         "description": "",
         "parameters": [
@@ -176,7 +176,7 @@
         }
       }
     },
-    "/recipes/deleteRecipe/{id}": {
+    "/journal/deleteRecipe/{id}": {
       "delete": {
         "description": "",
         "parameters": [
